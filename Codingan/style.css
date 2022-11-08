@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 5px 2px rgba(172, 170, 170, 0.5);
+}
+
+.navbar a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    color: #333;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.navbar a.login {
+    color: white;
+    background: blue;
+    font-weight: bold;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 100px;
+}
+
+.banner {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.product a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.product h3 {
+    font-size: 28px;
+    margin-left: 105px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.product .images {
+    margin-left: 80px !important;
+    margin-top: -5px;
+}
+
+.product img {
+    width: 350px;
+}
+
+.product-margin {
+    margin-left: 80px;
+}
+
+.paragraf-margin {
+    margin-left: 80px;
+}
+
+.product .product-text {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 7px;
+    color: orange;
+}
+
+.product .card-product {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.2s;
+    margin-left: 0 !important;
+}
+
+.product .card-product:hover {
+    transform: scale(1.1);
+}
+
+.product .card-product h4 {
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+footer p {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 21px;
+}
+
+footer span {
+    color: blue;
+    font-weight: bold;
+}
